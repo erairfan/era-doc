@@ -1,1 +1,32 @@
-site_name: My Docs
+site_name: Era Docs
+site_url: https://erairfan.github.io/era-doc/
+repo_url: https://github.com/erairfan/era-doc
+repo_name: GitHub
+theme:
+  name: material
+  features:
+    - navigation.expand              # Expand active sections
+    - navigation.sections            # Enables section-based navigation
+    - navigation.tracking            # Scroll tracking
+    - toc.follow                     # Highlights the TOC in view
+    - navigation.tabs 
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+    - scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+
+nav:
+  - Home: index.md
+  - Installation: intro.md
+  - Usage: usage.md
+  - FAQ: faq.md
+
