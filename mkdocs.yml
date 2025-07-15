@@ -21,7 +21,7 @@ theme:
       primary: yellow
       accent: indigo
       toggle:
-        icon: material/weather-sunny
+        icon: material/weather-winter
         name: Switch to light mode
 
 nav:
